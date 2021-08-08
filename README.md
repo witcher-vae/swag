@@ -55,7 +55,7 @@ Or download a pre-compiled binary from the [release page](https://github.com/swa
 
 3. Run `swag init` in the project's root folder which contains the `main.go` file. This will parse your comments and generate the required files (`docs` folder and `docs/docs.go`).
 ```sh
-$ swag init
+$ $GOPATH/bin/swag init
 ```
 
   Make sure to import the generated `docs/docs.go` so that your specific configuration gets `init`'ed. If your General API annotations do not live in `main.go`, you can let swag know with `-g` flag.
